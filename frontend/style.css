@@ -1,0 +1,223 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Home*/
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .header .logo h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #eaf7ef;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .cta-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .features h3 {
+    margin-bottom: 2rem;
+    color: #4CAF50;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .feature-item {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .feature-item h4 {
+    margin-top: 1rem;
+    color: #4CAF50;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .social-icons a img {
+    width: 24px;
+    margin: 0 5px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+/*Auth - login and Register*/
+/* Login & Register Styles */
+.login-section, .register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaf7ef;
+  }
+  
+  .login-box, .register-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-box h2, .register-box h2 {
+    margin-bottom: 1.5rem;
+    color: #4CAF50;
+  }
+  
+  .input-box {
+    margin-bottom: 1.2rem;
+    text-align: left;
+  }
+  
+  .input-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-btn, .register-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-btn:hover, .register-btn:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 1rem;
+  }
+  
+  p a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  

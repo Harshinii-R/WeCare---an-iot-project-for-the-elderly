@@ -1,0 +1,73 @@
+/* General styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 1rem;
+  }
+  
+  header nav ul li {
+    margin-right: 1.5rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Profile, Alerts, and Settings Sections */
+  .profile-section, .alerts-section, .settings-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .profile-box, .alerts-box, .settings-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #4CAF50;
+  }
+  
+  .profile-info p, .alerts-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .alerts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button.edit-btn, button.save-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button.edit-btn:hover, button.save-btn:hover {
+    background-color: #45a049;
+  }
+  

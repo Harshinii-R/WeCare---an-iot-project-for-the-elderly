@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elderly Care - Dashboard</title>
+    <link rel="stylesheet" href="dbstyle.css">
+    <script src="script.js"></script>
+
+</head>
+<style>
+    nav ul li  {
+        text-decoration: none;
+        
+    }
+</style>
+
+<body>
+
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Elderly Care Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="dashboard-grid">
+
+            <!-- Fall Detection -->
+            <div class="dashboard-card" id="fallCard">
+                <h2>Fall Detection</h2>
+                <p id="fallStatus">Loading...</p>
+            </div>
+
+            <!-- Heart Rate Monitoring -->
+            <div class="dashboard-card" id="heartRateCard">
+                <h2>Heart Rate</h2>
+                <p id="heartRateStatus">Loading...</p>
+            </div>
+
+            <!-- Gas Leakage Detection -->
+            <div class="dashboard-card" id="gasCard">
+                <h2>Gas Leakage</h2>
+                <p id="gasStatus">Loading...</p>
+            </div>
+
+            <!-- Pill Dispenser Status -->
+            <div class="dashboard-card" id="pillCard">
+                <h2>Pill Dispenser</h2>
+                <p id="pillStatus">Loading...</p>
+            </div>
+
+            <!-- Location -->
+            <div class="dashboard-card" id="locationCard" onclick="getLocation()">
+                <h2>Location</h2>
+                <p id="gps-value">Click to get current location</p>
+                <a id="gps-link" href="#" target="_blank" style="display:none;">Open in Google Maps</a>
+              </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

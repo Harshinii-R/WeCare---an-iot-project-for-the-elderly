@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | ElderlyCare</title>
+  <link rel="stylesheet" href="authstyle.css">
+  <script src="auth.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="alerts.html">Alerts</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Settings Section -->
+  <section class="settings-section">
+    <div class="settings-box">
+      <h2>Settings</h2>
+      <form id="settings-form">
+        <div class="input-box">
+          <label for="notification-settings">Notifications</label>
+          <select id="notification-settings">
+            <option value="enabled">Enabled</option>
+            <option value="disabled">Disabled</option>
+          </select>
+        </div>
+        <button type="submit" class="save-btn">Save Settings</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
